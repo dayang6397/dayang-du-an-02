@@ -26,6 +26,84 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+
+        <!-- ============ link favicon ============ -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
     </head>
     <body>
         <!-- ===== header ====== -->
@@ -37,10 +115,10 @@
                     <!-- nav -->
                     <nav class="nav">
                         <ul>
-                            <li><a href="#!" class="home">Home</a></li>
-                            <li><a href="#!">Courses</a></li>
-                            <li><a href="#!">Pricing</a></li>
-                            <li><a href="#!">Reviews</a></li>
+                            <li><a href="#Home" class="home">Home</a></li>
+                            <li><a href="#Courses">Courses</a></li>
+                            <li><a href="#Pricing">Pricing</a></li>
+                            <li><a href="#Reviews">Reviews</a></li>
                         </ul>
                     </nav>
                     <div class="action">
@@ -51,8 +129,7 @@
         </header>
 
         <main>
-            <!-- ====== hero ====== -->
-            <div class="hero">
+            <div class="hero" id="Home">
                 <div class="content">
                     <div class="body">
                         <div class="media-block">
@@ -64,12 +141,10 @@
                             />
                             <div class="design">
                                 <div class="row-2">
-                                    <img
-                                        src="./assets/img/design1.svg"
-                                        width="48px"
-                                        height="48px"
-                                        alt=""
-                                    />
+                                    <i
+                                        class="fa-regular fa-newspaper fa-2xl"
+                                        style="color: #ffb900"
+                                    ></i>
                                     <div class="column">
                                         <p class="shang">20 Courses</p>
                                         <p class="xia">UI/UX Design</p>
@@ -77,12 +152,10 @@
                                 </div>
 
                                 <div class="row-2">
-                                    <img
-                                        src="./assets/img/design2.svg"
-                                        width="48px"
-                                        height="48px"
-                                        alt=""
-                                    />
+                                    <i
+                                        class="fa-brands fa-google-play fa-2xl"
+                                        style="color: #a13fb9"
+                                    ></i>
                                     <div class="column">
                                         <p class="shang">20 Courses</p>
                                         <p class="xia">Development</p>
@@ -90,12 +163,10 @@
                                 </div>
 
                                 <div class="row-2">
-                                    <img
-                                        src="./assets/img/design3.svg"
-                                        width="48px"
-                                        height="48px"
-                                        alt=""
-                                    />
+                                    <i
+                                        class="fa-solid fa-volume-high fa-2xl"
+                                        style="color: #5c50e4"
+                                    ></i>
                                     <div class="column">
                                         <p class="shang">30 Courses</p>
                                         <p class="xia">Marketing</p>
@@ -115,7 +186,7 @@
                             </p>
 
                             <div class="action">
-                                <div class="btn">See Courses</div>
+                                <a href="#!" class="btn">See Courses</a>
                                 <div class="video">
                                     <i
                                         class="fa-regular fa-circle-play fa-2xl"
@@ -143,8 +214,9 @@
                     </div>
                 </div>
             </div>
+
             <!-- ============ Popular ============= -->
-            <div class="popular">
+            <div class="popular" id="Courses">
                 <div class="content">
                     <div class="body">
                         <!-- popular-top -->
@@ -159,11 +231,11 @@
                             <div class="icon">
                                 <i
                                     class="fa-solid fa-angle-right fa-gl"
-                                    style="color: #f7aa02"
+                                    style="color: FFB900"
                                 ></i>
                                 <i
                                     class="fa-solid fa-angle-left fa-gl"
-                                    style="color: #fff"
+                                    style="color: FFB900"
                                 ></i>
                             </div>
                         </div>
@@ -176,7 +248,7 @@
                                 />
                                 <div class="xing">
                                     <div class="row">
-                                        <h3 class="sub-title">
+                                        <h3 class="sub-title line-clamp">
                                             Basic web design
                                         </h3>
                                         <span class="icon"
@@ -187,7 +259,7 @@
                                             ><strong>4.5</strong></span
                                         >
                                     </div>
-                                    <p class="desc">
+                                    <p class="desc line-clamp line2">
                                         Get the best course, gain knowledge and
                                         shine for your future career.
                                     </p>
@@ -281,53 +353,233 @@
                                 class="fa-solid fa-quote-left fa-2xl"
                                 style="color: #634700"
                             ></i>
-                            <p class="gan-shou">
+                            <blockquote class="gan-shou">
                                 Not only does my resume look impressive—filled
                                 with the names and logos of world-class
                                 institutions—but these certificates also bring
                                 me closer to my career goals by validating the
                                 skills I've learned."
-                            </p>
+                            </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- ============= jie-shao ============== -->
-            <div class="jie-shao">
+            <div class="jie-shao" id="Pricing">
                 <div class="content">
+                    <!-- learner-top -->
                     <div class="learner-top">
                         <div class="zuo">
                             <img
                                 src="https://media.istockphoto.com/id/1436951314/fr/photo/femme-daffaires-parlant-%C3%A0-ses-coll%C3%A8gues-lors-dune-r%C3%A9union-dans-une-salle-de-conf%C3%A9rence.jpg?b=1&s=170667a&w=0&k=20&c=r5BgCj4Q3XTVkv3cftFQtHMjQkKtM094NyWVmGBeLT8="
                                 alt=""
-                                class="tu-pian"
+                                class="tu-pian tu-pian-1"
                             />
                             <img
                                 src="https://media.istockphoto.com/id/1442369573/fr/photo/r%C3%A9union-daffaires-occasionnelle.jpg?b=1&s=170667a&w=0&k=20&c=LD3zMa3EzayFVzt1GLmMfXW70sCUi-4Qjy6ONQDD-Ug="
                                 alt=""
-                                class="tu-pian"
+                                class="tu-pian tu-pian-2"
                             />
-                            <div class="you">
-                                <h2 class="sub-title">
-                                    Learner outcomes through our awesome
-                                    platform
-                                </h2>
-                                <p class="desc">
-                                    87% of people learning for professional
-                                    development report career benefits like
-                                    getting a promotion, a raise, or starting a
-                                    new career.
-                                </p>
-                                <p class="desc lesson">
-                                    Lesson Impact Report (2022)
-                                </p>
-                                <a href="#!" class="btn">Sign Up</a>
+                        </div>
+                        <div class="you">
+                            <h2 class="sub-title">
+                                Learner outcomes through our awesome platform
+                            </h2>
+                            <p class="desc">
+                                87% of people learning for professional
+                                development report career benefits like getting
+                                a promotion, a raise, or starting a new career.
+                            </p>
+                            <p class="desc lesson">
+                                Lesson Impact Report (2022)
+                            </p>
+                            <a href="#!" class="btn">Sign Up</a>
+                        </div>
+                    </div>
+                    <!-- === learner-bottom === -->
+                    <div class="learner-bottom">
+                        <div class="you you-bian">
+                            <h2 class="sub-title">
+                                Take the next step toward your personal and
+                                professional goals with Lesson.
+                            </h2>
+                            <p class="desc lesson">
+                                Take the next step toward. Join now to receive
+                                personalized and more recommendations from the
+                                full Coursera catalog.
+                            </p>
+                            <a href="#!" class="btn">Join Now</a>
+                        </div>
+                        <div class="zuo-bian">
+                            <img
+                                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8am9ifGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt=""
+                                class="tu-pian-3"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- =========== blog ============== -->
+            <div class="blog" id="Reviews">
+                <div class="content">
+                    <div class="body">
+                        <h2 class="sub-title">Our blog</h2>
+                        <p class="desc">
+                            Read our regular travel blog and know the latest
+                            update of tour and travel
+                        </p>
+
+                        <div class="big-box">
+                            <div class="box">
+                                <img
+                                    src="https://media.istockphoto.com/id/1416048929/fr/photo/femme-travaillant-sur-un-ordinateur-portable-en-ligne-v%C3%A9rifiant-ses-e-mails-et-planifiant-sur.jpg?b=1&s=170667a&w=0&k=20&c=uKc5w_eKb9wMxsILC52ATUnfZwFPk9CzQzeRiuWsBwA="
+                                    alt=""
+                                />
+                                <div class="nei-rong">
+                                    <p class="riqi">21 November 2021</p>
+                                    <div class="zhixian"></div>
+                                    <h3 class="tittle">
+                                        How to become a pro web designer in 2022
+                                        and get remot job?
+                                    </h3>
+                                    <a href="" class="btn">Read More</a>
+                                </div>
                             </div>
+
+                            <div class="box">
+                                <img
+                                    src="https://media.istockphoto.com/id/1365412652/fr/photo/r%C3%A9union-de-la-salle-de-conf%C3%A9rence-multiethnic-diverse-office-l%C3%A9quipe-de-deux-entrepreneurs.jpg?b=1&s=170667a&w=0&k=20&c=DDupBblNXQTppkxdu7z8O5B1jp6E8oDMUOYPtpyT6z8="
+                                    alt=""
+                                />
+                                <div class="nei-rong">
+                                    <p class="riqi">21 November 2021</p>
+                                    <div class="zhixian"></div>
+                                    <h3 class="tittle">
+                                        How to become a pro web designer in 2022
+                                        and get remot job?
+                                    </h3>
+                                    <a href="" class="btn">Read More</a>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <img
+                                    src="https://media.istockphoto.com/id/1468480817/fr/photo/planification-ordinateur-portable-et-femme-noire-au-bureau-avec-analyse-de-donn%C3%A9es-recherche.jpg?b=1&s=170667a&w=0&k=20&c=FgmzVAclf7HiLmUAXS_cfB9ZTwRVti8ajYr22N3R69k="
+                                    alt=""
+                                />
+                                <div class="nei-rong">
+                                    <p class="riqi">21 November 2021</p>
+                                    <div class="zhixian"></div>
+                                    <h3 class="tittle">
+                                        How to become a pro web designer in 2022
+                                        and get remot job?
+                                    </h3>
+                                    <a href="" class="btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="dian"></div>
+                            <div class="dian"></div>
+                            <div class="dian"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
+        <!-- ============== footer ================ -->
+        <footer class="footer">
+            <div class="content">
+                <div class="body">
+                    <div class="logo">
+                        <a href="#!">Lesson<strong>.</strong></a>
+                        <p class="desc">
+                            Need to help for your dream Career? trust us. With
+                            Lesson, study becomes a lot easier with us.
+                        </p>
+                        <div class="icon">
+                            <a href=""
+                                ><i
+                                    class="fa-brands fa-twitter"
+                                    style="color: #ffffff"
+                                ></i
+                            ></a>
+                            <a href=""
+                                ><i
+                                    class="fa-brands fa-facebook"
+                                    style="color: #ffffff"
+                                ></i
+                            ></a>
+                            <a href=""
+                                ><i
+                                    class="fa-brands fa-linkedin"
+                                    style="color: #ffffff"
+                                ></i
+                            ></a>
+                            <a href=""
+                                ><i
+                                    class="fa-brands fa-instagram"
+                                    style="color: #ffffff"
+                                ></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="company">
+                        <p class="desc">Company</p>
+                        <div class="zhixian"></div>
+                        <ul class="list">
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Features</a></li>
+                            <li><a href="">Our Pricing</a></li>
+                            <li><a href="">Latest News</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="company">
+                        <p class="desc">Support</p>
+                        <div class="zhixian"></div>
+                        <ul class="list">
+                            <li><a href="">FAQ’s</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="company">
+                        <p class="desc">Address</p>
+                        <div class="zhixian"></div>
+                        <ul class="list">
+                            <li>
+                                <a href=""
+                                    ><strong>Location:</strong> 27 Division St,
+                                    New York, NY 10002, USA</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="mailto:email@gmail.comsubject=Support&body=Message"
+                                    ><strong>Email:</strong> email@gmail.com</a
+                                >
+                            </li>
+                            <li>
+                                <a href="tell:+0001234567890"
+                                    ><strong>Phone:</strong> + 000 1234 567
+                                    890</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="xian"></div>
+                <div class="desc-end">
+                    Copyright ©2022 webdesign.gdn All rights reserved
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
