@@ -45,6 +45,7 @@ a {
     top: -28px;
     padding-top: 28px;
     background: #fffcf4;
+    z-index: 1;
 }
 
 .header .body {
@@ -246,3 +247,243 @@ color: #171100;
     line-height: 1.67;
     color: #5f5b53;
 }
+
+/* ============ Popular ============= */
+.popular{
+    margin-top: 200px;
+  }
+  
+  .popular-top{
+    display: flex;
+    align-items: center;
+  }
+  
+  .popular h2{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26; 
+    letter-spacing: -0.02em;
+    color: #171100;
+  }
+  
+  .popular .title .desc{
+    margin-top: 16px;
+    font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #5F5B53;
+  width: 456px;
+  }
+  
+  .popular-top .icon{
+    margin-left: auto;
+    display: flex;
+    gap: 18px
+    
+  }
+  
+  .popular-top .fa-solid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+  height: 40px;
+  border: 1px solid #FFB900;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border-radius: 999px;
+  }
+  
+  .fa-angle-left{
+    background: #FFB900;
+  }
+  
+  /* popular-bottom */
+  .popular-bottom{
+    display: flex;
+    gap: 30px;
+    margin-top: 55px;
+    
+  }
+  
+  .popular-bottom .box{
+    width: 370px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+  }
+  
+  .popular-bottom .box img{
+    width: 370px;
+  height: 278px;
+  border-radius: 12px 12px 0px 0px;
+  object-fit: cover;
+  }
+  
+  .popular-bottom .xing{
+    padding: 16px 22px 22px;
+  }
+  
+  .popular-bottom .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .popular-bottom .sub-title{
+    font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #171100;
+  
+  }
+  
+  .xing .row .icon strong{
+    font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #FEA31B;
+  margin-left: 6px;
+  
+  }
+  
+  .popular-bottom .desc{
+    margin-top: 6px;
+    font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #5F5B53;
+  }
+  
+  .popular-bottom .btn{
+    margin-top: 12px;
+    
+    background: #171100;
+  }
+  
+  .popular-bottom .btn:hover{
+    background: #FFB900;
+  }
+  
+  .xing .row .shu-ju{
+    font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #171100;
+  }
+  /* ============ comment ============== */
+  .comment{
+    margin-top: 200px;
+    background: #2E2100;
+  }
+  
+  .comment .body{
+  padding: 96px 0;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .comment img{
+    width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 999px;
+  }
+  
+  .comment .name{
+    margin-top: 18px;
+    font-family: 'Sen',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.42;
+  color: #F7F7F7;
+  }
+  
+  .comment .desc{
+    margin-top: 4px;
+    font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #BFBCB3;
+  }
+  
+  .comment .row{
+    display: flex;
+    gap: 6px
+  }
+  
+  .comment .body .dian{
+    margin-top: 28px;
+    width: 6px;
+  height: 6px;
+  background: #634700;
+  border-radius: 50%;
+  }
+  
+  .comment .body .dian:nth-child(2){
+    background: #FFB900;
+  }
+  
+  .comment .sheng{
+    width: 63.24%;
+    position: relative;
+  }
+  
+  .comment .gan-shou{
+    padding-top: 28px;
+    font-style: italic;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 1.54;
+  color: #FFFFFF;
+  
+  }
+  
+  .comment .sheng .fa-solid{
+    position: absolute;
+    left: -35px;
+    top: 20px
+  }
+  
+  /* =========== jie-shao ============ */
+  .jie-shao{
+    margin-top: 200px;
+  }
+  
+  .jie-shao .zuo .tu-pian{
+    width: 270px;
+  height: 404px;
+  border-radius: 16px;
+  object-fit: cover;
+  }
+  
+  .learner-top{
+    display: flex;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
