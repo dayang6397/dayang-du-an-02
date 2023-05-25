@@ -679,8 +679,10 @@ width: 330px;
 
 }
 
-.blog .btn{
+.blog-box__btn .btn{
+  margin-left: 0;
   margin-top: 12px;
+  text-align: left;
 }
 
 .blog .btn:hover{
